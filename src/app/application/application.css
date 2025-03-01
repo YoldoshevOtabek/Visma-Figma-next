@@ -1,0 +1,39 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+  background-color:#b6b4cc;
+  margin-top: 1rem;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  
+}
+.nav>p{
+  margin-left: 1rem;
+}
+.text-container{
+  width: 100%;
+  height: 55rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+  
+}
+h2{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+

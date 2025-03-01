@@ -1,0 +1,40 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/news/news.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.container{
+    width: 90%;
+    height: 80vh;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar >h4{
+    margin-right: 1rem;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.card{
+    width: 20rem;
+    height: 25rem;
+}
+.card >h6 {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: gray;
+}
+.card >h3 {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.card >p {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}

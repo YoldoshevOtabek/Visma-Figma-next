@@ -1,0 +1,31 @@
+
+
+.navbar-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    margin-top: 2rem;
+    color: white;
+    background-color: rgb(82, 82, 252);
+}
+.position{
+    display: flex;
+}
+.phone{
+    display: flex;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: 15rem;
+    gap: 2rem;
+    
+}
+

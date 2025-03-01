@@ -1,0 +1,75 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/aboutCompany/style.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: #d3d3da;
+    
+
+}
+.text{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 80vh;
+    margin: 50px 0px 0px 50px;
+}
+.media{ 
+    width: 50%;
+    height: 100vh;
+}
+Image:hover{
+    cursor: pointer;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3D348B80;
+    background-image: url(/_next/static/media/png.9cee049c.jpg);
+    background-size: cover;
+    width: 28rem;
+    height: 18rem;
+    position: relative;
+    top: 9rem;
+    left: 5rem;
+    border-radius: 10px;
+    z-index: 0;
+}
+.image::after{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #3D348B80;
+    border-radius: 10px;  
+    z-index: 1;         
+} 
+.secondCont{
+    width: 26rem;
+    height: 6rem;
+    background-color: #5DB7DE;
+    border-radius: 10px;
+    position: relative;
+    top: 11rem;
+    left: 5rem;
+    color: white;
+    padding: 1rem;
+}
+.secondCont > p{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.secondCont >h3{
+    position: relative;
+    top: 3rem;
+    font-weight: 900;
+}
+
+
