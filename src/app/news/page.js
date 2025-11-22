@@ -7,9 +7,9 @@ import image4 from './image/image4.png'
 
 export default function News () {
     return(
-        <div className="container">
+        <div className="news-container">
             <nav>
-            <div className="navbar">
+            <div className="news-navbar">
                <div><h1>Новости</h1></div>
                 <div style={{display:'flex',alignItems:'center',color:'#3D348B'}}> <div style={{marginRight:'1rem'}}><h4>ВСЕ НОВОСТИ </h4></div>
                  <a href="https://www.bbc.com/news/world"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,8 +18,8 @@ export default function News () {
 </svg></a></div>
             </div></nav>
             <section>
-            <div className="cards">
-               <div className="card">
+            <div className="news-cards">
+               <div className="news-card">
                     <Image src={image1} alt='img' style={{width:'18rem',height:'10rem',borderRadius:'10px'}}/>
                     <h6>20/05/22</h6>
                     <h3>Semper eu pulvinar eget integer</h3>

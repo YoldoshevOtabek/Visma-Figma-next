@@ -11,7 +11,7 @@ export default function Footer ()  {
        <div className='navbar-footer'>
         <div className='position'>
             <Image src={Position} 
-            style={{width:'20px',height:'20px',marginRight:'10px'}}/>
+            style={{width:'20px',height:'20px',marginRight:'10px',marginTop:'10px'}}/>
             <p>42.182447,60.085610</p></div>
        <div className="emblem">
                 <svg width="108" height="30" viewBox="0 0 108 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -19,10 +19,10 @@ export default function Footer ()  {
 </svg></div>
     <div className='phone'>
     <Image src={phone}
-    style={{width:'20px',height:'20px',marginRight:'10px'}}/>
+    style={{width:'20px',height:'20px',marginRight:'10px',marginTop:'15px'}}/>
     <p>(+998) 90 3224966</p>
     <Image src={email}
-    style={{width:'20px',height:'20px',marginRight:'10px',marginLeft:'10px'}}/>
+    style={{width:'20px',height:'20px',marginRight:'10px',marginLeft:'20px',marginTop:'15px'}}/>
     <p>yoldoshevo2000@gmail.com</p>
 </div><br />
        </div>

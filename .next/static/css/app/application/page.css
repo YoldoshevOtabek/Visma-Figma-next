@@ -1,7 +1,7 @@
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/application/application.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************/
-.container{
+.app-container{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,11 +10,11 @@
   background-color:#b6b4cc;
   margin-top: 1rem;
 }
-.navbar{
+.app-navbar{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   
 }
 .nav>p{
@@ -22,7 +22,7 @@
 }
 .text-container{
   width: 100%;
-  height: 55rem;
+  height: 65rem;
   display: flex;
   align-items: center;
   justify-content: center;

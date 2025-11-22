@@ -5,8 +5,8 @@ export default function Application () {
     
     return(
       <div>
-        <div className="container">
-       <div className="navbar">
+        <div className="app-container">
+       <div className="app-navbar">
        <p>Главная <svg width="4" height="6" viewBox="0 0 4 6" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M1.47826 5.74563L3.73913 3.58241C3.82609 3.49921 3.8913 3.40907 3.93478 3.312C3.97826 3.21494 4 3.11093 4 3C4 2.88907 3.97826 2.78506 3.93478 2.688C3.8913 2.59093 3.82609 2.50079 3.73913 2.41759L1.47826 0.254366C1.2029 -0.00910369 0.887826 -0.067899 0.533043 0.0779801C0.177681 0.223305 0 0.483169 0 0.857574V5.14243C0 5.51683 0.177681 5.7767 0.533043 5.92202C0.887826 6.0679 1.2029 6.0091 1.47826 5.74563Z" fill="#333333"/>
 </svg>  </p>

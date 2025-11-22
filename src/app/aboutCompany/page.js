@@ -5,7 +5,7 @@ import Media from './482059.png'
 
 export default function aboutCompany () {
     return(
-        <div className="container">
+        <div className="about-container">
             <div className="text">
                 <h2>О компании</h2>
                 <p style={{marginTop:'3rem'}}>Tristique orci consectetur sit felis. Sed ac auctor tellus lobortis. Enim non turpis nulla nec a sapien sit amet molestie. Et id malesuada gravida sit volutpat. Volutpat sed lectus elementum diam neque facilisis in. Convallis nibh sem in viverra quis. Interdum pharetra.</p>
